@@ -1,0 +1,33 @@
+ .person-container{
+   text-align: center;
+    
+ }
+.person-container img{
+   
+    width: 100px;
+    clip-path: circle();
+}
+.card-section{
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    border-radius: 10px;
+    /* height: 39rem; */
+    
+    
+}
+.card-section:hover{
+   
+     box-shadow:6px 6px 40px 5px#198754;
+     transition: 0.5s ease-in-out;
+     transform: translateY(5px);
+}
+.icon h3{
+    padding:10px;
+   color:rgb(36, 35, 35);
+
+}
+.icon i:hover{
+    
+    color:#198754;
+    
+
+}
