@@ -13,7 +13,7 @@ const Details = (props) => {
         <div className="detail">
             <h4><i className="fas fa-user-friends"></i>Total Person Add:{details.length}</h4>
             <h4><i class="fas fa-dollar-sign"></i>Total Salary:{totalsalary}</h4>
-            <div>
+            
             
             {
               details.map(detail=> 
@@ -27,7 +27,7 @@ const Details = (props) => {
                 )
           }
             
-            </div>
+            
             
           
         </div>
